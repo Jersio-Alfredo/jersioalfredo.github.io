@@ -1,0 +1,67 @@
+* {
+			
+			margin: 0;
+			padding: 0;
+			
+		}
+		.cabecalho {
+			position: absolute;
+			background: #526082;
+			font-family: cursive;
+			height: 150px;
+			right: 0;
+			left: 0;
+			
+		}
+		.cabecalho form {
+			position: relative;
+			top: 30px;
+			width: 40%;
+			transform: translateX(50%);
+			
+			
+		}
+		.cabecalho form div{
+			display: inline-block;
+
+		}
+		.cabecalho form h2 {
+			position: relative;
+			bottom: 10px;
+			color: white;
+			display: inline-block;
+			letter-spacing: 1.5px;
+
+		}
+		.cabecalho div input[type='search']{
+			border-radius: 10px;
+			border: none;
+			padding: 10px;
+			outline: none;				
+		}
+		
+		.cabecalho div button{
+			padding: 10px;
+			color: white;
+			background: #44c199;
+			border-radius: 10px;
+			text-transform: uppercase;
+			outline: none;
+			border: none;
+
+		}
+		@media screen and (min-width: 0px) and (max-width: 729px){
+			.cabecalho div button {
+				margin-top: 10px;
+			}
+			.cabecalho {
+				height: 200px;
+			}
+		}
+		@media screen and (min-width: 0px) and (max-width: 523px){
+			
+			.cabecalho {
+			}
+		}
+
+		
