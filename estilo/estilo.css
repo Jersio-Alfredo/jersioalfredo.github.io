@@ -63,8 +63,9 @@
 				margin-top: 10px;
 			}
 			.cabecalho {
-				height: 200px;
+				height:500px;
 			}
+	
 		}
 		@media screen and (min-width: 0px) and (max-width: 523px){
 			html {
@@ -73,6 +74,7 @@
 				font-size: 80%;
 			}
 			.cabecalho {
+				height:500px;
 			}
 		}
 
