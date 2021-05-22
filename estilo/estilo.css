@@ -3,10 +3,13 @@
 			margin: 0;
 			padding: 0;
 	box-sizing:border-box;
+	
+	 font-family: "Montserrat-Regular";
+}
 	body {
 		background:#fefefe;
 	}			
-		}
+		
 @font-face {
     font-family: "Montserrat-Regular";
     src: url('../fonts/montserrat/Montserrat-Regular.ttf');
