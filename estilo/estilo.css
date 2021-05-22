@@ -9,7 +9,7 @@
 	body {
 		background:#fefefe;
 	}			
-		
+	
 @font-face {
     font-family: "Montserrat-Regular";
     src: url('../fonts/montserrat/Montserrat-Regular.ttf');
@@ -50,12 +50,12 @@ html {
 			display: inline-block;
 
 		}
-		.cabecalho form h2 {
+		.cabecalho form h3 {
 			position: relative;
 			bottom: 10px;
 			color: white;
 			display: inline-block;
-			letter-spacing: 1.5px;
+			
 
 		}
 		.cabecalho div input[type='search']{
