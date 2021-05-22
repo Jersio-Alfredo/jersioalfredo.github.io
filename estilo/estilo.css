@@ -2,6 +2,7 @@
 			
 			margin: 0;
 			padding: 0;
+	box-sizing:border-box;
 	body {
 		background:#fefefe;
 	}			
@@ -88,5 +89,6 @@ html {
 				font-size: 90%;
 			}
 			.cabecalho {
+				height: 150px;
 			}
 		}
